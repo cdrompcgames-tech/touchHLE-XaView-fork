@@ -25,7 +25,7 @@ struct UINavigationControllerHostObject {
 }
 impl_HostObject_with_superclass!(UINavigationControllerHostObject);
 
-pub const CLASSES: ClassExports = objc_classes! {
+pub const CLASSES: ClassExports = objc_classes!.
 
 (env, this, _cmd);
 
@@ -153,8 +153,6 @@ pub const CLASSES: ClassExports = objc_classes! {
     // TODO
 }
 
-    
-}
 
 @end
 
