@@ -149,6 +149,12 @@ pub const CLASSES: ClassExports = objc_classes! {
 - (())setNavigationBarHidden:(bool)_hidden {
     // TODO
 }
+- (void)setHideBottomBarWhenPushed:(BOOL)hide {
+    // TODO
+}
+
+    
+}
 
 @end
 
